@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaZhihu, FaGithub, FaLinkedin } from 'react-icons/fa'
+// import { FaTwitter, FaZhihu, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
 import * as config from 'lib/config'
 
