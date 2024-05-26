@@ -24,6 +24,19 @@
   background-color: var(--bg-color);
 }
 
+
+.giscusWrapper {
+  background-color: var(--bg-color);
+}
+
+.giscus {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 6px;
+  overflow-x: auto;
+  background-color: var(--bg-color);
+}
+
 .loadingIcon {
   animation: spinner 0.6s linear infinite;
   display: block;

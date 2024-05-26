@@ -6,6 +6,7 @@ import { domain, isDev } from '@/lib/config'
 import { getSiteMap } from '@/lib/get-site-map'
 import { resolveNotionPage } from '@/lib/resolve-notion-page'
 import { PageProps, Params } from '@/lib/types'
+import { Comments } from '@/components/Comments'
 
 export const getStaticProps: GetStaticProps<PageProps, Params> = async (
   context
@@ -50,5 +51,10 @@ export async function getStaticPaths() {
 }
 
 export default function NotionDomainDynamicPage(props) {
-  return <NotionPage {...props} />
+  return (
+    <>
+      <NotionPage {...props} />
+      <Comments />
+    </>
+  )
 }
