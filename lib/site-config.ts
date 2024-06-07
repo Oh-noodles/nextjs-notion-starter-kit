@@ -33,6 +33,8 @@ export interface SiteConfig {
 
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
+
+  ICP?: string
 }
 
 export interface NavigationLink {
